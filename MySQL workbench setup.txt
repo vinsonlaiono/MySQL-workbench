@@ -1,0 +1,15 @@
+SELECT first_name, last_name FROM users;
+
+
+INSERT INTO tweets (tweet, user_id, created_at, updated_at)
+
+VALUES ("hello", 1, now(),now());
+
+SELECT * FROM tweets;
+
+UPDATE users SET
+first_name = 'KNOBE'
+WHERE id = 1;
+
+DELETE FROM tweets 
+WHERE id = 14;
